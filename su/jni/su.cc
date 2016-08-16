@@ -2,6 +2,8 @@
 	su.cc
 	-----
 	
+	Copyright 2016 Joshua Juran
+	
 	This is an implementation of `su` that authenticates non-root users by
 	issuing a cryptographic challenge, which must be answered by an Ed25519
 	signature of the challenge using the correct secret key.  It's intended
@@ -31,6 +33,21 @@
 	DISCLAIMER:  I'm not a cryptographer or a security expert.  Don't assume
 	this program achieves any particular standard of security or correctness.
 	Read the code and do your own analysis.
+	
+	
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU Affero General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+	
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU Affero General Public License for more details.
+	
+	You should have received a copy of the GNU Affero General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+	
 */
 
 // POSIX
